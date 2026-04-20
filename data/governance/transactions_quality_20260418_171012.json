@@ -1,0 +1,16 @@
+{
+  "table_name": "transactions",
+  "timestamp": "2026-04-18T17:10:12.752392",
+  "checks": [
+    {
+      "check_name": "null_check",
+      "passed": true,
+      "details": "Found 0 null values across 0 columns"
+    },
+    {
+      "check_name": "data_type_check",
+      "passed": true,
+      "details": "All data types valid"
+    }
+  ]
+}

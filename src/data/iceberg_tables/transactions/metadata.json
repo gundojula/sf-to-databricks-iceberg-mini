@@ -1,0 +1,18 @@
+{
+  "table_name": "transactions",
+  "schema": {
+    "transaction_id": "int64",
+    "customer_id": "int64",
+    "product": "object",
+    "amount": "float64",
+    "transaction_date": "datetime64[ns]",
+    "status": "object"
+  },
+  "num_records": 5004,
+  "created_at": "2026-04-18T17:34:11.853098",
+  "partition_by": "transaction_date",
+  "data_files": [
+    "data/iceberg_tables/transactions/data.parquet"
+  ],
+  "last_modified": "2026-04-18T17:34:11.940571"
+}

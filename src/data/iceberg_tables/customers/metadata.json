@@ -1,0 +1,20 @@
+{
+  "table_name": "customers",
+  "schema": {
+    "customer_id": "int64",
+    "name": "object",
+    "email": "object",
+    "age": "int64",
+    "income": "int64",
+    "signup_date": "datetime64[ns]",
+    "last_login": "datetime64[ns]",
+    "is_active": "bool"
+  },
+  "num_records": 1050,
+  "created_at": "2026-04-18T17:34:11.850067",
+  "partition_by": "signup_date",
+  "data_files": [
+    "data/iceberg_tables/customers/data.parquet"
+  ],
+  "last_modified": "2026-04-18T17:34:11.936153"
+}
